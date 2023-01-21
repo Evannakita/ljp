@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ljp:block/polished_dripstone_brick_slab"
+    },
+    "type=double": {
+      "model": "ljp:block/polished_dripstone_bricks"
+    },
+    "type=top": {
+      "model": "ljp:block/polished_dripstone_brick_slab_top"
+    }
+  }
+}

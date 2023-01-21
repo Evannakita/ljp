@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "ljp:polished_dripstone"
+      }
+    },
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "result": {
+      "count": 6,
+      "item": "ljp:polished_dripstone_wall"
+    }
+  }

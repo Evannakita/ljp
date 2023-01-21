@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+      "end": "ljp:block/basalt_bricks_top",
+      "side": "ljp:block/basalt_bricks"
+    }
+  }

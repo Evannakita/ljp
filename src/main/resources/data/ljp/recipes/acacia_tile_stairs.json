@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_tile_stairs",
+    "key": {
+      "#": {
+        "item": "ljp:acacia_tiles"
+      }
+    },
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "result": {
+      "count": 4,
+      "item": "ljp:acacia_tile_stairs"
+    }
+  }

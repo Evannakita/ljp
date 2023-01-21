@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "minecraft:dripstone_block"
+      }
+    },
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "result": {
+      "count": 2,
+      "item": "ljp:dripstone_pillar"
+    }
+  }

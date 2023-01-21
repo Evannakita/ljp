@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "ljp:granite_bricks"
+      }
+    },
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "result": {
+      "count": 4,
+      "item": "ljp:granite_brick_stairs"
+    }
+  }

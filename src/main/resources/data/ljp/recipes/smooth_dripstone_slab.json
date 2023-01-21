@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_tile_slab",
+    "key": {
+      "#": {
+        "item": "ljp:smooth_dripstone"
+      }
+    },
+    "pattern": [
+      "###"
+    ],
+    "result": {
+      "count": 6,
+      "item": "ljp:smooth_dripstone_slab"
+    }
+  }

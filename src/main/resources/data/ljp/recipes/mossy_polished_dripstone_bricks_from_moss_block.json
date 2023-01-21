@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mossy_polished_dripstone_bricks",
+  "ingredients": [
+    {
+      "item": "ljp:polished_dripstone_bricks"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "item": "ljp:mossy_polished_dripstone_bricks"
+  }
+}

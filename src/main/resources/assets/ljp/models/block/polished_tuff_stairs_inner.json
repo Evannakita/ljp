@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+      "bottom": "ljp:block/polished_tuff",
+      "side": "ljp:block/polished_tuff",
+      "top": "ljp:block/polished_tuff"
+    }
+  }

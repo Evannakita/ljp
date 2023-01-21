@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "ljp:smooth_calcite"
+  },
+  "result": "ljp:smooth_calcite_wall"
+}

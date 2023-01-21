@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.1,
+    "ingredient": {
+      "item": "ljp:polished_dripstone_bricks"
+    },
+    "result": "ljp:cracked_polished_dripstone_bricks"
+  }

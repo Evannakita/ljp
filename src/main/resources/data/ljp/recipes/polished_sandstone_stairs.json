@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "ljp:polished_sandstone"
+      }
+    },
+    "pattern": [
+      "#  ",
+      "## ",
+      "###"
+    ],
+    "result": {
+      "count": 4,
+      "item": "ljp:polished_sandstone_stairs"
+    }
+  }

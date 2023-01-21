@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+      "bottom": "ljp:block/cut_calcite",
+      "side": "ljp:block/cut_calcite",
+      "top": "ljp:block/smooth_calcite"
+    }
+  }

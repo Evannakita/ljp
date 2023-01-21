@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_tile_wall",
+    "key": {
+      "#": {
+        "item": "ljp:oak_tiles"
+      }
+    },
+    "pattern": [
+      "###",
+      "###"
+    ],
+    "result": {
+      "count": 6,
+      "item": "ljp:oak_tile_wall"
+    }
+  }

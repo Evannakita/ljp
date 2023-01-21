@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_tile_slab",
+    "key": {
+      "#": {
+        "item": "ljp:dark_oak_tiles"
+      }
+    },
+    "pattern": [
+      "###"
+    ],
+    "result": {
+      "count": 6,
+      "item": "ljp:dark_oak_tile_slab"
+    }
+  }

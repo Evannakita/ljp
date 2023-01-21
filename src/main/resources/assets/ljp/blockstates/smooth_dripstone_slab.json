@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ljp:block/smooth_dripstone_slab"
+    },
+    "type=double": {
+      "model": "ljp:block/smooth_dripstone"
+    },
+    "type=top": {
+      "model": "ljp:block/smooth_dripstone_slab_top"
+    }
+  }
+}

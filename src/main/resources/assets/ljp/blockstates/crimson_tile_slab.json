@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ljp:block/crimson_tile_slab"
+    },
+    "type=double": {
+      "model": "ljp:block/crimson_tiles"
+    },
+    "type=top": {
+      "model": "ljp:block/crimson_tile_slab_top"
+    }
+  }
+}

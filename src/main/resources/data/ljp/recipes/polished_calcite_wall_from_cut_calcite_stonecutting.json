@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "ljp:cut_calcite"
+  },
+  "result": "ljp:polished_calcite_wall"
+}
