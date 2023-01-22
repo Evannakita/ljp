@@ -180,14 +180,21 @@ public class LJP implements ModInitializer {
 		.sounds(BlockSoundGroup.CALCITE)
 		.requiresTool());
 
-	// Chiseled Andesite Bricks
+	// Chiseled Andesite
 	public static final Block CHISELED_ANDESITE_BRICKS = new Block(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F,6.0F)
 		.sounds(BlockSoundGroup.STONE)
 		.requiresTool());
 
-	// Chiseled Diorite Bricks
+	// Chiseled Calcite
+	public static final Block CHISELED_CALCITE_BRICKS = new Block(
+		FabricBlockSettings.of(Material.STONE)
+		.strength(2.0F,2.0F)
+		.sounds(BlockSoundGroup.CALCITE)
+		.requiresTool());
+
+	// Chiseled Diorite
 	public static final Block CHISELED_DIORITE_BRICKS = new Block(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F,6.0F)
@@ -1002,6 +1009,10 @@ public class LJP implements ModInitializer {
 		Registry.register(Registries.BLOCK, new Identifier("ljp", "chiseled_andesite_bricks"), CHISELED_ANDESITE_BRICKS);
 		Registry.register(Registries.ITEM, new Identifier("ljp", "chiseled_andesite_bricks"), new BlockItem(CHISELED_ANDESITE_BRICKS, new FabricItemSettings()));
 
+		// Chiseled Calcite
+		Registry.register(Registries.BLOCK, new Identifier("ljp", "chiseled_calcite_bricks"), CHISELED_CALCITE_BRICKS);
+		Registry.register(Registries.ITEM, new Identifier("ljp", "chiseled_calcite_bricks"), new BlockItem(CHISELED_CALCITE_BRICKS, new FabricItemSettings()));
+
 		// Chiseled Diorite
 		Registry.register(Registries.BLOCK, new Identifier("ljp", "chiseled_diorite_bricks"), CHISELED_DIORITE_BRICKS);
 		Registry.register(Registries.ITEM, new Identifier("ljp", "chiseled_diorite_bricks"), new BlockItem(CHISELED_DIORITE_BRICKS, new FabricItemSettings()));
@@ -1569,6 +1580,7 @@ public class LJP implements ModInitializer {
 				CALCITE_STAIRS,
 				CALCITE_SLAB,
 				CALCITE_WALL,
+				CHISELED_CALCITE_BRICKS,
 				SMOOTH_CALCITE,
 				SMOOTH_CALCITE_STAIRS,
 				SMOOTH_CALCITE_SLAB,
