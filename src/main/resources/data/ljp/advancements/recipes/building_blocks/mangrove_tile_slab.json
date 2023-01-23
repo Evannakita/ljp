@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_tiles": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "ljp:mangrove_tiles"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "ljp:mangrove_tile_slab"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_tiles",
+        "has_the_recipe"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "ljp:mangrove_tile_slab"
+      ]
+    }
+  }
