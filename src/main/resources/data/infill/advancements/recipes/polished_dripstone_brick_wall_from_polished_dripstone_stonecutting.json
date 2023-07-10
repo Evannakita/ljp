@@ -6,7 +6,7 @@
           "items": [
             {
               "items": [
-                "ljp:polished_dripstone"
+                "infill:polished_dripstone"
               ]
             }
           ]
@@ -15,7 +15,7 @@
       },
       "has_the_recipe": {
         "conditions": {
-          "recipe": "ljp:polished_dripstone_brick_slab_from_polished_dripstone_stonecutting"
+          "recipe": "ljp:polished_dripstone_brick_wall_from_polished_dripstone_stonecutting"
         },
         "trigger": "minecraft:recipe_unlocked"
       }
@@ -28,7 +28,7 @@
     ],
     "rewards": {
       "recipes": [
-        "ljp:polished_dripstone_brick_slab_from_polished_dripstone_stonecutting"
+        "ljp:polished_dripstone_brick_wall_from_polished_dripstone_stonecutting"
       ]
     }
   }

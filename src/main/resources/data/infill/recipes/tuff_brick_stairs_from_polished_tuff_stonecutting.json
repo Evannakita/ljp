@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "ljp:polished_tuff"
+    "item": "infill:polished_tuff"
   },
-  "result": "ljp:tuff_bricks"
+  "result": "ljp:tuff_brick_stairs"
 }

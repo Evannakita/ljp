@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "ljp:polished_dripstone"
+      "item": "infill:polished_tuff"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 4,
-    "item": "ljp:polished_dripstone_bricks"
+    "item": "ljp:tuff_bricks"
   }
 }

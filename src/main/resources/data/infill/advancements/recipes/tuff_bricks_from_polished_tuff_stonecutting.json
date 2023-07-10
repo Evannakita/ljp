@@ -1,12 +1,12 @@
 {
     "parent": "minecraft:recipes/root",
     "criteria": {
-      "has_polished_dripstone": {
+      "has_polished_tuff": {
         "conditions": {
           "items": [
             {
               "items": [
-                "ljp:polished_dripstone"
+                "infill:polished_tuff"
               ]
             }
           ]
@@ -15,20 +15,20 @@
       },
       "has_the_recipe": {
         "conditions": {
-          "recipe": "ljp:polished_dripstone_bricks_from_polished_dripstone_stonecutting"
+          "recipe": "ljp:tuff_bricks_from_polished_tuff_stonecutting"
         },
         "trigger": "minecraft:recipe_unlocked"
       }
     },
     "requirements": [
       [
-        "has_polished_dripstone",
+        "has_polished_tuff",
         "has_the_recipe"
       ]
     ],
     "rewards": {
       "recipes": [
-        "ljp:polished_dripstone_bricks_from_polished_dripstone_stonecutting"
+        "ljp:tuff_bricks_from_polished_tuff_stonecutting"
       ]
     }
   }
