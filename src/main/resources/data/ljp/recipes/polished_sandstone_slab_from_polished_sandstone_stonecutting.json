@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "ljp:polished_sandstone"
-  },
-  "result": "ljp:polished_sandstone_slab"
-}

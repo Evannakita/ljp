@@ -30,6 +30,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "Tidewaters! :D"
+    "another-mod": "Infill! :D"
   }
 }
