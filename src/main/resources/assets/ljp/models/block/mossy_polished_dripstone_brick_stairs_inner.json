@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/inner_stairs",
-    "textures": {
-      "bottom": "ljp:block/mossy_polished_dripstone_bricks",
-      "side": "ljp:block/mossy_polished_dripstone_bricks",
-      "top": "ljp:block/mossy_polished_dripstone_bricks"
-    }
-  }

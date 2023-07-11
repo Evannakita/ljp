@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "ljp",
+  "id": "infill",
   "version": "${version}",
 
-  "name": "Literally Just Palettes",
-  "description": "For the builder that just wants a few more options.",
+  "name": "Infill",
+  "description": "Why wasn't this in the game already?",
   "authors": [
-    "Kayla and Eve!"
+    "Kayla and Eve of Team Firefly!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "evannakita.ljp.LJP"
+      "evannakita.infill.Infill"
     ]
   },
 
@@ -30,6 +30,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "Tidewaters! :D"
+    "another-mod": "LJP! :D"
   }
 }

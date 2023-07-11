@@ -1,24 +1,11 @@
 {
     "replace": false,
     "values": [
-        "ljp:acacia_tile_stairs",
         "ljp:amethyst_stairs",
-        "ljp:andesite_brick_stairs",
-        "ljp:basalt_brick_stairs",
-        "ljp:birch_tile_stairs",
         "ljp:calcite_stairs",
-        "ljp:crimson_tile_stairs",
-        "ljp:dark_oak_tile_stairs",
-        "ljp:diorite_brick_stairs",
         "ljp:dripstone_stairs",
-        "ljp:granite_brick_stairs",
-        "ljp:jungle_tile_stairs",
-        "ljp:mangrove_tile_stairs",
-        "ljp:mossy_polished_dripstone_brick_stairs",
-        "ljp:oak_tile_stairs",
         "ljp:obsidian_stairs",
         "ljp:polished_calcite_stairs",
-        "ljp:polished_dripstone_brick_stairs",
         "ljp:polished_dripstone_stairs",
         "ljp:polished_red_sandstone_stairs",
         "ljp:polished_sandstone_stairs",
@@ -26,8 +13,6 @@
         "ljp:smooth_basalt_stairs",
         "ljp:smooth_calcite_stairs",
         "ljp:smooth_dripstone_stairs",
-        "ljp:spruce_tile_stairs",
-        "ljp:tuff_brick_stairs",
-        "ljp:warped_tile_stairs"
+        "ljp:tuff_stairs"
     ]
 }

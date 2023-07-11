@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/slab_top",
-    "textures": {
-      "bottom": "ljp:block/basalt_bricks",
-      "side": "ljp:block/basalt_bricks",
-      "top": "ljp:block/basalt_bricks"
-    }
-  }

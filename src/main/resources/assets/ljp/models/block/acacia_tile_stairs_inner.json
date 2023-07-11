@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/inner_stairs",
-    "textures": {
-      "bottom": "ljp:block/acacia_tiles",
-      "side": "ljp:block/acacia_tiles",
-      "top": "ljp:block/acacia_tiles"
-    }
-  }

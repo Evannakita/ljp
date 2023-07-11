@@ -1,24 +1,11 @@
 {
     "replace": false,
     "values": [
-        "ljp:acacia_tile_wall",
-        "ljp:andesite_brick_wall",
-        "ljp:basalt_brick_wall",
-        "ljp:birch_tile_wall",
         "ljp:calcite_wall",
-        "ljp:crimson_tile_wall",
-        "ljp:dark_oak_tile_wall",
-        "ljp:diorite_brick_wall",
         "ljp:dripstone_wall",
-        "ljp:granite_brick_wall",
-        "ljp:jungle_tile_wall",
-        "ljp:mangrove_tile_wall",
-        "ljp:mossy_polished_dripstone_brick_wall",
-        "ljp:oak_tile_wall",
         "ljp:polished_andesite_wall",
         "ljp:polished_calcite_wall",
         "ljp:polished_diorite_wall",
-        "ljp:polished_dripstone_brick_wall",
         "ljp:polished_dripstone_wall",
         "ljp:polished_granite_wall",
         "ljp:polished_red_sandstone_wall",
@@ -29,9 +16,6 @@
         "ljp:smooth_dripstone_wall",
         "ljp:smooth_red_sandstone_wall",
         "ljp:smooth_sandstone_wall",
-        "ljp:spruce_tile_wall",
-        "ljp:tuff_brick_wall",
-        "ljp:tuff_wall",
-        "ljp:warped_tile_wall"
+        "ljp:tuff_wall"
     ]
 }

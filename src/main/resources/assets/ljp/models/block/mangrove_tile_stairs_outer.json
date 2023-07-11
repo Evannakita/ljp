@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/outer_stairs",
-    "textures": {
-      "bottom": "ljp:block/mangrove_tiles",
-      "side": "ljp:block/mangrove_tiles",
-      "top": "ljp:block/mangrove_tiles"
-    }
-  }
