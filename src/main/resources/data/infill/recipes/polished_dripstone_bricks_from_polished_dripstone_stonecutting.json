@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "infill:polished_dripstone"
-  },
-  "result": "ljp:polished_dripstone_bricks"
-}

@@ -9,6 +9,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
 import net.minecraft.block.PillarBlock;
 import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.WallBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroups;
@@ -21,20 +22,18 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import evannakita.infill.block.ModStairsBlock;
-
 public class Infill implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("ljp");
 
 	// Amethyst Slab
-	public static final SlabBlock AMETHYST_SLAB = new SlabBlock(
+	public static final Block AMETHYST_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.AMETHYST)
 		.strength(1.5F,1.5F)
 		.sounds(BlockSoundGroup.AMETHYST_BLOCK)
 		.requiresTool());
 
 	// Amethyst Stairs
-	public static final ModStairsBlock AMETHYST_STAIRS = new ModStairsBlock(
+	public static final Block AMETHYST_STAIRS = new StairsBlock(
 		Blocks.AMETHYST_BLOCK.getDefaultState(),
 		FabricBlockSettings.of(Material.AMETHYST)
 		.strength(1.5F,1.5F)
@@ -42,21 +41,21 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Calcite Pillar
-	public static final PillarBlock CALCITE_PILLAR = new PillarBlock(
+	public static final Block CALCITE_PILLAR = new PillarBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.75F,0.75F)
 		.sounds(BlockSoundGroup.CALCITE)
 		.requiresTool());
 
 	// Calcite Slab
-	public static final SlabBlock CALCITE_SLAB = new SlabBlock(
+	public static final Block CALCITE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.75F,0.75F)
 		.sounds(BlockSoundGroup.CALCITE)
 		.requiresTool());
 
 	// Calcite Stairs
-	public static final ModStairsBlock CALCITE_STAIRS = new ModStairsBlock(
+	public static final Block CALCITE_STAIRS = new StairsBlock(
 		Blocks.CALCITE.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.75F,0.75F)
@@ -64,7 +63,7 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Calcite Wall
-	public static final WallBlock CALCITE_WALL = new WallBlock(
+	public static final Block CALCITE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F,2.0F)
 		.sounds(BlockSoundGroup.CALCITE)
@@ -120,28 +119,28 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Cut Calcite Slab
-	public static final SlabBlock CUT_CALCITE_SLAB = new SlabBlock(
+	public static final Block CUT_CALCITE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.75F,0.75F)
 		.sounds(BlockSoundGroup.CALCITE)
 		.requiresTool());
 
 	// Dripstone Pillar
-	public static final PillarBlock DRIPSTONE_PILLAR = new PillarBlock(
+	public static final Block DRIPSTONE_PILLAR = new PillarBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F,1.0F)
 		.sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
 		.requiresTool());
 
 	// Dripstone Slab
-	public static final SlabBlock DRIPSTONE_SLAB = new SlabBlock(
+	public static final Block DRIPSTONE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F,1.5F)
 		.sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
 		.requiresTool());
 
 	// Dripstone Stairs
-	public static final ModStairsBlock DRIPSTONE_STAIRS = new ModStairsBlock(
+	public static final Block DRIPSTONE_STAIRS = new StairsBlock(
 		Blocks.DRIPSTONE_BLOCK.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F,1.5F)
@@ -149,21 +148,21 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Dripstone Wall
-	public static final WallBlock DRIPSTONE_WALL = new WallBlock(
+	public static final Block DRIPSTONE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F,2.0F)
 		.sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
 		.requiresTool());
 
 	// Obsidian Slab
-	public static final SlabBlock OBSIDIAN_SLAB = new SlabBlock(
+	public static final Block OBSIDIAN_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.DECORATION)
 		.strength(50.0F,1200.0F)
 		.sounds(BlockSoundGroup.STONE)
 		.requiresTool());
 
 	// Obsidian Stairs
-	public static final ModStairsBlock OBSIDIAN_STAIRS = new ModStairsBlock(
+	public static final Block OBSIDIAN_STAIRS = new StairsBlock(
 		Blocks.OBSIDIAN.getDefaultState(),
 		FabricBlockSettings.of(Material.DECORATION)
 		.strength(50.0F,1200.0F)
@@ -171,7 +170,7 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Andesite Wall
-	public static final WallBlock POLISHED_ANDESITE_WALL = new WallBlock(
+	public static final Block POLISHED_ANDESITE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 6.0F)
 		.sounds(BlockSoundGroup.STONE)
@@ -185,14 +184,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Calcite Slab
-	public static final SlabBlock POLISHED_CALCITE_SLAB = new SlabBlock(
+	public static final Block POLISHED_CALCITE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.75F, 0.75F)
 		.sounds(BlockSoundGroup.CALCITE)
 		.requiresTool());
 
 	// Polished Calcite Stairs
-	public static final ModStairsBlock POLISHED_CALCITE_STAIRS = new ModStairsBlock(
+	public static final Block POLISHED_CALCITE_STAIRS = new StairsBlock(
 		Infill.POLISHED_CALCITE.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.75F, 0.75F)
@@ -200,14 +199,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Calcite Wall
-	public static final WallBlock POLISHED_CALCITE_WALL = new WallBlock(
+	public static final Block POLISHED_CALCITE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.75F, 0.75F)
 		.sounds(BlockSoundGroup.CALCITE)
 		.requiresTool());
 
 	// Polished Diorite Wall
-	public static final WallBlock POLISHED_DIORITE_WALL = new WallBlock(
+	public static final Block POLISHED_DIORITE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 6.0F)
 		.sounds(BlockSoundGroup.STONE)
@@ -221,14 +220,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Dripstone Slab
-	public static final SlabBlock POLISHED_DRIPSTONE_SLAB = new SlabBlock(
+	public static final Block POLISHED_DRIPSTONE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 1.0F)
 		.sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
 		.requiresTool());
 
 	// Polished Dripstone Stairs
-	public static final ModStairsBlock POLISHED_DRIPSTONE_STAIRS = new ModStairsBlock(
+	public static final Block POLISHED_DRIPSTONE_STAIRS = new StairsBlock(
 		Infill.POLISHED_DRIPSTONE.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 1.0F)
@@ -236,14 +235,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Dripstone Wall
-	public static final WallBlock POLISHED_DRIPSTONE_WALL = new WallBlock(
+	public static final Block POLISHED_DRIPSTONE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 1.0F)
 		.sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
 		.requiresTool());
 
 	// Polished Granite Wall
-	public static final WallBlock POLISHED_GRANITE_WALL = new WallBlock(
+	public static final Block POLISHED_GRANITE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 6.0F)
 		.sounds(BlockSoundGroup.STONE)
@@ -257,14 +256,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Red Sandstone Slab
-	public static final SlabBlock POLISHED_RED_SANDSTONE_SLAB = new SlabBlock(
+	public static final Block POLISHED_RED_SANDSTONE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
 		.sounds(BlockSoundGroup.STONE)
 		.requiresTool());
 
 	// Polished Red Sandstone Stairs
-	public static final ModStairsBlock POLISHED_RED_SANDSTONE_STAIRS = new ModStairsBlock(
+	public static final Block POLISHED_RED_SANDSTONE_STAIRS = new StairsBlock(
 		Infill.POLISHED_RED_SANDSTONE.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
@@ -272,7 +271,7 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Red Sandstone Wall
-	public static final WallBlock POLISHED_RED_SANDSTONE_WALL = new WallBlock(
+	public static final Block POLISHED_RED_SANDSTONE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
 		.sounds(BlockSoundGroup.STONE)
@@ -286,14 +285,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Sandstone Slab
-	public static final SlabBlock POLISHED_SANDSTONE_SLAB = new SlabBlock(
+	public static final Block POLISHED_SANDSTONE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
 		.sounds(BlockSoundGroup.STONE)
 		.requiresTool());
 
 	// Polished Sandstone Stairs
-	public static final ModStairsBlock POLISHED_SANDSTONE_STAIRS = new ModStairsBlock(
+	public static final Block POLISHED_SANDSTONE_STAIRS = new StairsBlock(
 		Infill.POLISHED_SANDSTONE.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
@@ -301,7 +300,7 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Sandstone Wall
-	public static final WallBlock POLISHED_SANDSTONE_WALL = new WallBlock(
+	public static final Block POLISHED_SANDSTONE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
 		.sounds(BlockSoundGroup.STONE)
@@ -315,14 +314,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Tuff Slab
-	public static final SlabBlock POLISHED_TUFF_SLAB = new SlabBlock(
+	public static final Block POLISHED_TUFF_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 6.0F)
 		.sounds(BlockSoundGroup.TUFF)
 		.requiresTool());
 
 	// Polished Tuff Stairs
-	public static final ModStairsBlock POLISHED_TUFF_STAIRS = new ModStairsBlock(
+	public static final Block POLISHED_TUFF_STAIRS = new StairsBlock(
 		Infill.POLISHED_TUFF.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 6.0F)
@@ -330,21 +329,21 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Polished Tuff Wall
-	public static final WallBlock POLISHED_TUFF_WALL = new WallBlock(
+	public static final Block POLISHED_TUFF_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 6.0F)
 		.sounds(BlockSoundGroup.TUFF)
 		.requiresTool());
 
 	// Red Sandstone Pillar
-	public static final PillarBlock RED_SANDSTONE_PILLAR = new PillarBlock(
+	public static final Block RED_SANDSTONE_PILLAR = new PillarBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
 		.sounds(BlockSoundGroup.STONE)
 		.requiresTool());
 
 	// Sandstone Pillar
-	public static final PillarBlock SANDSTONE_PILLAR = new PillarBlock(
+	public static final Block SANDSTONE_PILLAR = new PillarBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(0.8F, 0.8F)
 		.sounds(BlockSoundGroup.STONE)
@@ -358,14 +357,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Smooth Basalt Slab
-	public static final SlabBlock SMOOTH_BASALT_SLAB = new SlabBlock(
+	public static final Block SMOOTH_BASALT_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.25F, 4.2F)
 		.sounds(BlockSoundGroup.BASALT)
 		.requiresTool());
 
 	// Smooth Basalt Stairs
-	public static final ModStairsBlock SMOOTH_BASALT_STAIRS = new ModStairsBlock(
+	public static final Block SMOOTH_BASALT_STAIRS = new StairsBlock(
 		Blocks.SMOOTH_BASALT.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.25F, 4.2F)
@@ -373,21 +372,21 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Smooth Basalt Wall
-	public static final WallBlock SMOOTH_BASALT_WALL = new WallBlock(
+	public static final Block SMOOTH_BASALT_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.25F, 4.2F)
 		.sounds(BlockSoundGroup.BASALT)
 		.requiresTool());
 
 	// Smooth Calcite Slab
-	public static final SlabBlock SMOOTH_CALCITE_SLAB = new SlabBlock(
+	public static final Block SMOOTH_CALCITE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F, 6.0F)
 		.sounds(BlockSoundGroup.CALCITE)
 		.requiresTool());
 
 	// Smooth Calcite Stairs
-	public static final ModStairsBlock SMOOTH_CALCITE_STAIRS = new ModStairsBlock(
+	public static final Block SMOOTH_CALCITE_STAIRS = new StairsBlock(
 		Infill.SMOOTH_CALCITE.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F, 6.0F)
@@ -395,7 +394,7 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Smooth Calcite Wall
-	public static final WallBlock SMOOTH_CALCITE_WALL = new WallBlock(
+	public static final Block SMOOTH_CALCITE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F,6.0F)
 		.sounds(BlockSoundGroup.CALCITE)
@@ -409,14 +408,14 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Smooth Dripstone Slab
-	public static final SlabBlock SMOOTH_DRIPSTONE_SLAB = new SlabBlock(
+	public static final Block SMOOTH_DRIPSTONE_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F, 6.0F)
 		.sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
 		.requiresTool());
 
 	// Smooth Dripstone Stairs
-	public static final ModStairsBlock SMOOTH_DRIPSTONE_STAIRS = new ModStairsBlock(
+	public static final Block SMOOTH_DRIPSTONE_STAIRS = new StairsBlock(
 		Infill.SMOOTH_DRIPSTONE.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F, 6.0F)
@@ -424,35 +423,35 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Smooth Dripstone Wall
-	public static final WallBlock SMOOTH_DRIPSTONE_WALL = new WallBlock(
+	public static final Block SMOOTH_DRIPSTONE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F,6.0F)
 		.sounds(BlockSoundGroup.DRIPSTONE_BLOCK)
 		.requiresTool());
 
 	// Smooth Red Sandstone Wall
-	public static final WallBlock SMOOTH_RED_SANDSTONE_WALL = new WallBlock(
+	public static final Block SMOOTH_RED_SANDSTONE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F,6.0F)
 		.sounds(BlockSoundGroup.STONE)
 		.requiresTool());
 
 	// Smooth Sandstone Wall
-	public static final WallBlock SMOOTH_SANDSTONE_WALL = new WallBlock(
+	public static final Block SMOOTH_SANDSTONE_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F,6.0F)
 		.sounds(BlockSoundGroup.STONE)
 		.requiresTool());
 
 	// Tuff Slab
-	public static final SlabBlock TUFF_SLAB = new SlabBlock(
+	public static final Block TUFF_SLAB = new SlabBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F,6.0F)
 		.sounds(BlockSoundGroup.TUFF)
 		.requiresTool());
 
 	// Tuff Stairs
-	public static final ModStairsBlock TUFF_STAIRS = new ModStairsBlock(
+	public static final Block TUFF_STAIRS = new StairsBlock(
 		Blocks.TUFF.getDefaultState(),
 		FabricBlockSettings.of(Material.STONE)
 		.strength(1.5F, 6.0F)
@@ -460,7 +459,7 @@ public class Infill implements ModInitializer {
 		.requiresTool());
 
 	// Tuff Wall
-	public static final WallBlock TUFF_WALL = new WallBlock(
+	public static final Block TUFF_WALL = new WallBlock(
 		FabricBlockSettings.of(Material.STONE)
 		.strength(2.0F,2.0F)
 		.sounds(BlockSoundGroup.TUFF)
