@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/slab",
-    "textures": {
-      "bottom": "ljp:block/polished_sandstone",
-      "side": "ljp:block/polished_sandstone",
-      "top": "ljp:block/polished_sandstone"
-    }
-  }
